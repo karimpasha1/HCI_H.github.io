@@ -1,0 +1,165 @@
+<html>
+<head>
+    <title>SR University</title>
+    <style>
+.footer{
+margin-bottom:1px;
+}
+.menus{
+margin-top:1px;
+}
+ul {
+   list-style-type:none;
+   margin:0;
+   padding:0
+   overflow:hidden;
+   background-color:#333;
+}
+li {
+   float:left;
+}
+li a{
+   display:block;
+   color:white;
+   text-align:center;
+   padding:14px 16px;
+   text-decoration:none;
+}
+
+li.dropdown{
+   display:inline-block;
+}
+.dropdown-content{
+   display:none;
+   position:absolute;
+   background-color:#f9f9f9;
+   min-width:160px;
+   box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index:1;
+}
+.dropdown-content a{
+   color:black;
+   padding:12px 16px;
+   text-decoration:none;
+   display:block;
+   text-align:left;
+}
+.dropdown-content a:hover
+{background-color:red;}  
+.dropdown:hover .dropdown-content{
+   display:block;
+}
+
+li a:hover, .dropdown:hover .dropbtn,{
+background-color:red;
+}
+
+#labels,#inputs{
+font-size:15pt;
+width:250px;
+}
+table{
+margin:50px;
+}
+td, th{
+vertical-align:top;
+padding:15px;
+}
+#btn {
+color: white;
+background-color:blue;
+border-radius: 10px;
+height: 50px;
+width: 250px;
+font-size: 12pt;
+}
+		.flex-container {
+  display: flex;
+  justify-content: center; 
+ align-items: left;
+  background-color: white;
+}
+
+.flex-container > div {
+  background-color: DodgerBlue; 
+  color: black;
+  width: 360px;
+  margin: 10px;
+  text-align: left;
+  line-height: 60px;
+  font-size: 23px;
+}
+.flex-container > div:nth-child(1) {
+  background-color: DodgerBlue;
+}
+
+.flex-container > div:nth-child(2) {
+  background-color: green;
+}
+
+.flex-container > div:nth-child(3) {
+  background-color: yellow; 
+}
+
+.flex-container > div:nth-child(4) {
+  background-color: Red; 
+}
+.student-info-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+.student-image
+        {
+            margin-right: 20px;
+            border-radius: 50%;
+        }
+.red-text{
+color:red;
+}
+.green-text{
+color:green;
+}
+body {
+    background-image: url('sr1.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+.bottom-bar {
+    background-color: black;
+	color:white;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 100; /* Add z-index to ensure it's above other content */
+}
+
+    </style>
+    <link rel="icon" href="../index_files/favicon.ico" type="image/x-icon" />
+</head>
+<html>
+<body>
+<div class="header">
+<img src="https://sraap.in/student/h1.png" width=100%>
+</div>
+  
+<marquee direction = "right" scrollamount="20"><h1 class="red-text" align="center">WELCOME TO  SR UNIVERSITY<h1></marquee>
+<header>
+<center>
+    <h1 align="center" class="green-text"><b>TIMETABLES AVAILABLE</b></h1>
+    <h2 style="color:yellow;"><b>LOGIN YOUR CREDENTIALS OR YOU CAN DOWNLOAD YOUR TIMETABLE USING BELOW LINK</b></h2>
+    <h2 style="color:pink;">TimeTables For Students Of III-SEM(2ND YEAR'S-CSE,CSE-AIML,CSE-DS&CS)</h2>
+    <h3><a href="123yr.html">Check your Timetable<a href="All tt link.html"></a></h3>
+</center>
+
+<div class="bottom-bar">
+        <span id="dateAndTime"></span>
+        © Center for Software Development and Digital Learning, SR University
+    </div>
+</body>
+</html>
